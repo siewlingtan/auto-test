@@ -1,0 +1,136 @@
+default:
+    suites:
+        default:
+            paths:
+                features: %paths.base%/features
+                bootstrap: %paths.base%/features/bootstrap
+            contexts:
+                - MasterContext:
+                    parameters:
+                        user: #Please Enter UserName
+                        password : #Please Enter Password
+    extensions:
+        Behat\MinkExtension:
+            files_path: '/tmp'
+            default_session: selenium2
+            browser_name: chrome
+            selenium2: ~
+            goutte: ~
+            show_auto: true
+            show_cmd: open %s
+            base_url: http://kss.kaplan.net
+production:
+    suites:
+        default:
+            paths:
+                features: %paths.base%/features
+                bootstrap: %paths.base%/features/bootstrap
+            contexts:
+                - MasterContext:
+                    parameters:
+                        user: nicole.chua
+                        password : Nic7ole*
+    extensions:
+        Behat\MinkExtension:
+            files_path: '/tmp'
+            default_session: selenium2
+            browser_name: chrome
+            selenium2: ~
+            goutte: ~
+            show_auto: true
+            show_cmd: open %s
+            base_url: http://kss.kaplan.net
+stage:
+    suites:
+        default:
+            paths:
+                features: %paths.base%/features
+                bootstrap: %paths.base%/features/bootstrap
+            contexts:
+                - MasterContext:
+                    parameters:
+                        user: nicole.chua
+                        password : Nic7ole*
+    extensions:
+        Behat\MinkExtension:
+            files_path: '/tmp'
+            default_session: selenium2
+            browser_name: chrome
+            selenium2: ~
+            goutte: ~
+            show_auto: true
+            show_cmd: open %s
+            base_url: http://kss-stage.kaplan.net
+dev:
+    suites:
+        default:
+            paths:
+                features: %paths.base%/features
+                bootstrap: %paths.base%/features/bootstrap
+            contexts:
+                - MasterContext:
+                    parameters:
+                        user: #Please Enter UserName
+                        password : #Please Enter Password
+    extensions:
+        Behat\MinkExtension:
+            default_session: selenium2
+            browser_name: chrome
+            selenium2: 
+                wd_host: "http://127.0.0.1:8643/wd/hub"
+            goutte: ~
+            show_auto: true
+            show_cmd: open %s
+            base_url: http://kss-dev.kaplan.net/live
+internet:
+    suites:
+        default:
+            paths:
+                features: %paths.base%/features
+                bootstrap: %paths.base%/features/bootstrap
+            contexts:
+                - MasterContext:
+                    parameters:
+                        user: #Please Enter UserName
+                        password : #Please Enter Password
+#            context:
+#                parameters:
+#                    wd_host: 127.0.0.1:4443/wd/hub
+#                    wd_capabilities: { "browser": "internet explorer", "version": "11"}
+    extensions:
+        Behat\MinkExtension:
+            browser_name: internet explorer
+            default_session: selenium2
+            base_url: http://kss.kaplan.net
+##            selenium2: ~
+#                browser: internet explorer
+#                capabilities: { "browser": "internet explorer", "browserName": "internet explorer", "version": "*", "browserVersion": "*" }
+#                capabilities:
+#                    browser: internet explorer
+#                    version: 11
+chrome:
+    extensions:
+        Behat\MinkExtension:
+            browser_name: chrome
+            base_url: http://kss.kaplan.net
+firefox:
+    extensions:
+        Behat\MinkExtension:
+            browser_name: firefox
+            base_url: http://kss.kaplan.net
+#        Behat\MinkExtension\ServiceContainer\MinkExtension:
+#            show_auto: true
+#            show_cmd: open -a "Google Chrome" %s
+#                - JustForTestContext # To test Trait
+#                - MasterContext:
+#                     baseUrl: http://kss-dev.kaplan.net/KSSMSE-717
+#                     tempPath: /var/tmp
+#                - ScreenshotContext: # As anonymous to save the screenshot in wSend.net for future reference.
+#            javascript_session: selenium2
+#            selenium2:
+#                wd_host: "http://127.0.0.1:4444/wd/hub"
+#                capabilities: {"browser": "chrome", "version": "14"}
+#            selenium2:
+#                browser: ipad
+#                wd_host: test:test@ondemand.saucelabs.com/wd/hub
+#                capabilities: {  "platform": "OS X 10.8", "version": "6.0", "name": "Testing Portrait iPhone2", "selenium-version": "" }

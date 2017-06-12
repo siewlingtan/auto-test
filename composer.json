@@ -1,0 +1,10 @@
+{
+	"require": {
+        "behat/behat": "~3.0",
+        "behat/mink-extension": "~2.0@dev",
+        "behat/mink-goutte-driver": "~1.0",
+        "behat/mink-selenium2-driver": "~1.1",
+        "guzzle/guzzle": ">=3.5",
+        "guzzlehttp/guzzle": "4.*"
+    }
+}

@@ -1,0 +1,15 @@
+vendor\bin\behat -p internet --format pretty features\test\MurdochEnroll1.feature
+vendor\bin\behat -p internet --format pretty features\test\MurdochEnroll2.feature
+vendor\bin\behat -p firefox --format pretty features\test\MurdochEnroll3.feature
+vendor\bin\behat -p firefox --format pretty features\test\MurdochEnroll4.feature
+vendor\bin\behat -p chrome --format pretty features\test\MurdochEnroll5.feature
+vendor\bin\behat -p chrome --format pretty features\test\MurdochEnroll6.feature
+vendor\bin\behat -p internet --format pretty features\test\MurdochEnroll7.feature
+vendor\bin\behat -p internet --format pretty features\test\MurdochEnroll8.feature
+vendor\bin\behat -p chrome --format pretty features\test\MurdochEnroll9.feature
+vendor\bin\behat -p chrome --format pretty features\test\MurdochEnroll10.feature
+vendor\bin\behat -p chrome --format pretty features\test\MurdochEnroll11.feature
+vendor\bin\behat -p chrome --format pretty features\test\MurdochEnroll12.feature
+vendor\bin\behat -p firefox --format pretty features\test\MurdochEnroll13.feature
+vendor\bin\behat -p firefox --format pretty features\test\MurdochEnroll14.feature
+vendor\bin\behat -p internet --format pretty features\test\MurdochEnroll15.feature
