@@ -20,7 +20,7 @@
         "suggest": {
             "ext-mbstring": "For best performance"
         },
-        "time": "2016-05-18 14:26:46",
+        "time": "2016-05-18T14:26:46+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -78,7 +78,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2016-05-18 14:26:46",
+        "time": "2016-05-18T14:26:46+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -143,7 +143,7 @@
             "behat/mink-selenium2-driver": "slow, but JS-enabled driver for any app (requires Selenium2)",
             "behat/mink-zombie-driver": "fast and JS-enabled headless driver for any app (requires node.js)"
         },
-        "time": "2016-03-05 08:26:18",
+        "time": "2016-03-05T08:26:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -200,7 +200,7 @@
             "silex/silex": "~1.2",
             "symfony/phpunit-bridge": "~2.7|~3.0"
         },
-        "time": "2016-03-05 08:59:47",
+        "time": "2016-03-05T08:59:47+00:00",
         "type": "mink-driver",
         "extra": {
             "branch-alias": {
@@ -257,7 +257,7 @@
         "require-dev": {
             "symfony/phpunit-bridge": "~2.7|~3.0"
         },
-        "time": "2016-03-05 09:04:22",
+        "time": "2016-03-05T09:04:22+00:00",
         "type": "mink-driver",
         "extra": {
             "branch-alias": {
@@ -312,7 +312,7 @@
         "require-dev": {
             "satooshi/php-coveralls": "dev-master"
         },
-        "time": "2015-06-15 20:19:33",
+        "time": "2015-06-15T20:19:33+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -373,7 +373,7 @@
         "require-dev": {
             "symfony/phpunit-bridge": "~2.7"
         },
-        "time": "2016-03-05 09:10:18",
+        "time": "2016-03-05T09:10:18+00:00",
         "type": "mink-driver",
         "extra": {
             "branch-alias": {
@@ -431,7 +431,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2015-09-28 16:26:35",
+        "time": "2015-09-28T16:26:35+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -480,7 +480,7 @@
             "behat/mink-goutte-driver": "~1.1",
             "phpspec/phpspec": "~2.0"
         },
-        "time": "2016-02-15 07:55:18",
+        "time": "2016-02-15T07:55:18+00:00",
         "type": "behat-extension",
         "extra": {
             "branch-alias": {
@@ -538,7 +538,7 @@
             "symfony/css-selector": "~2.1",
             "symfony/dom-crawler": "~2.1"
         },
-        "time": "2015-05-05 21:14:57",
+        "time": "2015-05-05T21:14:57+00:00",
         "type": "application",
         "extra": {
             "branch-alias": {
@@ -585,7 +585,7 @@
         "require": {
             "php": ">=5.3.9"
         },
-        "time": "2016-10-21 20:59:10",
+        "time": "2016-10-21T20:59:10+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -651,7 +651,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2016-10-18 04:28:30",
+        "time": "2016-10-18T04:28:30+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -713,7 +713,7 @@
             "symfony/dependency-injection": "",
             "symfony/http-kernel": ""
         },
-        "time": "2016-10-13 01:43:15",
+        "time": "2016-10-13T01:43:15+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -778,7 +778,7 @@
             "symfony/proxy-manager-bridge": "Generate service proxies to lazy load them",
             "symfony/yaml": ""
         },
-        "time": "2016-10-24 15:52:36",
+        "time": "2016-10-24T15:52:36+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -829,7 +829,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-10-10 12:19:37",
+        "time": "2016-10-10T12:19:37+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -886,7 +886,7 @@
             "symfony/class-loader": "~2.2|~3.0.0",
             "symfony/http-kernel": "~2.3.24|~2.5.9|~2.6,>=2.6.2|~3.0.0"
         },
-        "time": "2016-09-06 10:55:00",
+        "time": "2016-09-06T10:55:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -949,7 +949,7 @@
             "symfony/event-dispatcher": "",
             "symfony/process": ""
         },
-        "time": "2016-10-06 01:43:09",
+        "time": "2016-10-06T01:43:09+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1000,7 +1000,7 @@
         "require": {
             "php": ">=5.3.9"
         },
-        "time": "2016-10-18 04:28:30",
+        "time": "2016-10-18T04:28:30+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1055,7 +1055,7 @@
         "suggest": {
             "symfony/yaml": "To use the yaml reference dumper"
         },
-        "time": "2016-09-14 20:31:12",
+        "time": "2016-09-14T20:31:12+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1110,7 +1110,7 @@
         "require-dev": {
             "symfony/finder": "~2.0,>=2.0.5|~3.0.0"
         },
-        "time": "2016-09-06 23:19:39",
+        "time": "2016-09-06T23:19:39+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1169,7 +1169,7 @@
         "suggest": {
             "symfony/yaml": "If you want to parse features, represented in YAML files"
         },
-        "time": "2016-10-30 11:50:56",
+        "time": "2016-10-30T11:50:56+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1242,7 +1242,7 @@
             "behat/symfony2-extension": "for integration with Symfony2 web framework",
             "behat/yii-extension": "for integration with Yii web framework"
         },
-        "time": "2016-09-25 09:40:39",
+        "time": "2016-09-25T09:40:39+00:00",
         "bin": [
             "bin/behat"
         ],
@@ -1312,7 +1312,7 @@
         "suggest": {
             "symfony/css-selector": ""
         },
-        "time": "2016-10-18 15:35:45",
+        "time": "2016-10-18T15:35:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1371,7 +1371,7 @@
         "suggest": {
             "symfony/process": ""
         },
-        "time": "2016-09-06 10:55:00",
+        "time": "2016-09-06T10:55:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1422,7 +1422,7 @@
         "require": {
             "php": ">=5.3.9"
         },
-        "time": "2016-09-06 10:55:00",
+        "time": "2016-09-06T10:55:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1515,7 +1515,7 @@
         "suggest": {
             "guzzlehttp/guzzle": "Guzzle 5 has moved to a new package name. The package you have installed, Guzzle 3, is deprecated."
         },
-        "time": "2015-03-18 18:23:50",
+        "time": "2015-03-18T18:23:50+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1578,7 +1578,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.0"
         },
-        "time": "2014-08-17 21:15:53",
+        "time": "2014-08-17T21:15:53+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1640,7 +1640,7 @@
         "suggest": {
             "ext-curl": "Guzzle will use specific adapters if cURL is present"
         },
-        "time": "2016-07-15 17:44:18",
+        "time": "2016-07-15T17:44:18+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1678,5 +1678,109 @@
             "rest",
             "web service"
         ]
+    },
+    {
+        "name": "twig/twig",
+        "version": "v1.34.4",
+        "version_normalized": "1.34.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twigphp/Twig.git",
+            "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twigphp/Twig/zipball/f878bab48edb66ad9c6ed626bf817f60c6c096ee",
+            "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "psr/container": "^1.0",
+            "symfony/debug": "~2.7",
+            "symfony/phpunit-bridge": "~3.3@dev"
+        },
+        "time": "2017-07-04T13:19:31+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.34-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Twig_": "lib/"
+            },
+            "psr-4": {
+                "Twig\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com",
+                "homepage": "http://fabien.potencier.org",
+                "role": "Lead Developer"
+            },
+            {
+                "name": "Armin Ronacher",
+                "email": "armin.ronacher@active-4.com",
+                "role": "Project Founder"
+            },
+            {
+                "name": "Twig Team",
+                "homepage": "http://twig.sensiolabs.org/contributors",
+                "role": "Contributors"
+            }
+        ],
+        "description": "Twig, the flexible, fast, and secure template language for PHP",
+        "homepage": "http://twig.sensiolabs.org",
+        "keywords": [
+            "templating"
+        ]
+    },
+    {
+        "name": "emuse/behat-html-formatter",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dutchiexl/BehatHtmlFormatterPlugin.git",
+            "reference": "c7a51a1013c0ee6fdc4a00e93842d5f9c8bc98ec"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dutchiexl/BehatHtmlFormatterPlugin/zipball/c7a51a1013c0ee6fdc4a00e93842d5f9c8bc98ec",
+            "reference": "c7a51a1013c0ee6fdc4a00e93842d5f9c8bc98ec",
+            "shasum": ""
+        },
+        "require": {
+            "behat/behat": "~3.0",
+            "php": ">=5.3.0",
+            "twig/twig": "~1.0"
+        },
+        "time": "2015-05-27T15:09:34+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "emuse\\BehatHTMLFormatter\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "authors": [
+            {
+                "name": "Neal Vanmeert",
+                "email": "neal@emuse.be"
+            }
+        ],
+        "description": "This will create a html formatter for Behat."
     }
 ]

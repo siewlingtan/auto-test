@@ -116,3 +116,10 @@ Feature: Login
 			And I press "Search"
 			And I wait for "30" seconds to click the link "View"
 			Then I wait for 7 seconds until I see "View Application"
+		When I follow "Self Services"
+			Then I should see the following:
+				| Menu |
+				| Notification |
+				| LOV |
+				| Student Onboarding |
+				| Leave Application |

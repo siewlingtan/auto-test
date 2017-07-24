@@ -637,4 +637,12 @@ class MasterContext extends MinkContext implements ContextInterface, SnippetAcce
             echo $user->name . " / " . $user->followers . "\n";
         }
     }
+	
+	 /**
+     * @Then I should see the following:
+     */
+    public function iShouldSeeTheFollowing(TableNode $table)
+    {
+        $this->assertSession()->elementExists('css', '.pheading');
+    }
 }

@@ -1,20 +1,26 @@
 (1) 
 Phantomjs
 > open cmd
+> cd C:\Users\SiewLing.Tan\Documents\auto-test\run
 > phantomjs --webdriver=8643
 > changes in behat.yml
             selenium2:
                 wd_host: "http://127.0.0.1:8643/wd/hub"
 Selenium
 > open cmd
+> cd C:\Users\SiewLing.Tan\Documents\auto-test\run
 > java -jar selenium-server-standalone-2.53.1.jar -Dwebdriver.ie.driver=IEDriverServer2.53.1_32.exe -Dwebdriver.chrome.driver=chromedriver_2.24.exe
 > changes in behat.yml
             selenium2: ~
 (2)
 > open cmd
+> cd C:\Users\SiewLing.Tan\Documents\auto-test
 > run one of the following
 vendor\bin\behat -p stage --format pretty features\regressive\kssregressiontest.feature
 vendor\bin\behat -p production --format pretty features\regressive\kssregressiontest.feature
 vendor\bin\behat -p chrome --format pretty features\regressive\kssregressiontest.feature
 vendor\bin\behat -p firefox --format pretty features\regressive\kssregressiontest.feature
 vendor\bin\behat -p internet --format pretty features\regressive\kssregressiontest.feature
+vendor\bin\behat -p kssmobile --format pretty features\regressive\accessnotification.feature
+
+vendor\bin\behat features\regressive\accessnotification.feature --dry-run --append-snippets

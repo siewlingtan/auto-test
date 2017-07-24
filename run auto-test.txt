@@ -1,0 +1,2 @@
+run/phantomjs_2.1.1_x86_64 --webdriver=8643;
+vendor/bin/behat -p production --format pretty features/regressive/kssregressiontest.feature;
