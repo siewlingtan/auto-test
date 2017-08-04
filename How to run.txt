@@ -21,6 +21,3 @@ vendor\bin\behat -p production --format pretty features\regressive\kssregression
 vendor\bin\behat -p chrome --format pretty features\regressive\kssregressiontest.feature
 vendor\bin\behat -p firefox --format pretty features\regressive\kssregressiontest.feature
 vendor\bin\behat -p internet --format pretty features\regressive\kssregressiontest.feature
-vendor\bin\behat -p kssmobile --format pretty features\regressive\accessnotification.feature
-
-vendor\bin\behat features\regressive\accessnotification.feature --dry-run --append-snippets
