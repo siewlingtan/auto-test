@@ -57,7 +57,8 @@ stage:
             files_path: '/tmp'
             default_session: selenium2
             browser_name: chrome
-            selenium2: ~
+            selenium2: 
+                wd_host: "http://127.0.0.1:8643/wd/hub"
             goutte: ~
             show_auto: true
             show_cmd: open %s
